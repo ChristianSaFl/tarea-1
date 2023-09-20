@@ -2,20 +2,24 @@
   background: rgb(94, 93, 93);
   padding: 10px;
   
-  width: 840px;
-  height: 200px;
+  width: auto;
+  height: auto;
   
 }
 
+p{
+  font-size: 20px;
+}
 .p1{
   font-size: 15px;
 }
 
 li{
-  font-size: 19px;
+  font-size: 18px;
+  padding: 3px;
 }
 .l1{
-  font-size: 16px;
+  font-size: 20px;
   padding: 5px;
 }
 .h2{
@@ -28,7 +32,7 @@ li{
   float: left; 
   width: 150px; 
   height: auto; 
-  
+  margin-top: 20px;
   border-radius: 10px;
 }
 
@@ -53,13 +57,14 @@ li{
   font-weight:lighter;
 }
 .borde {
-  display: flex;
+  
   flex-direction: column; 
   border: 1px solid #c5bebe;
   padding: 10px;
   margin: 20px;
-  width: 860px;
-  height: 1510px;
+  width: 960px;
+  height: auto;
+
 }
 .texto{
   font-size: 8px;
@@ -69,15 +74,15 @@ li{
 }
 
 .cuadro {
-  width: 250px;
+  width: auto;
   background: rgb(216, 218, 219);
   padding: 40px;
-  height: 1300px;
+  height: auto;
 }
 
 .cuadro2 {
-  width: 450px;
+  width: auto;
   background: rgb(255, 255, 255);
   padding: 40px;
-  height: 1300px;
+  height: auto;
 }
